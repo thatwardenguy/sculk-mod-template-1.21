@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sculkmod",
+	"version": "${version}",
+	"name": "sculk mod",
+	"description": "a mod making the deep dark survivable",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sculkmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.warden.sculkmod.SculkMod"
+		],
+		"fabric-datagen": [
+			"com.warden.sculkmod.SculkModDataGenerator"
+		],
+		"client": [
+			"net.warden.sculkmod.SculkModClient"
+		]
+	},
+	"mixins": [
+		"sculkmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
