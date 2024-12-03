@@ -22,7 +22,7 @@
 			"com.warden.sculkmod.SculkModDataGenerator"
 		],
 		"client": [
-			"net.warden.sculkmod.SculkModClient"
+			"com.warden.sculkmod.SculkModClient"
 		]
 	},
 	"mixins": [
