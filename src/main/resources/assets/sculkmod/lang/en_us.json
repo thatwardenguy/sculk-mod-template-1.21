@@ -1,4 +1,6 @@
 {
   "item.sculkmod.soul_gem": "Soul Gem",
-  "item.sculkmod.fractured_soul_gem": "Fractured Soul Gem"
+  "item.sculkmod.fractured_soul_gem": "Fractured Soul Gem",
+
+  "block.sculkmod.deep_wood_log": "deep wood log"
 }

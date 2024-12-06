@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sculkmod:block/deep_wood_log_rotated",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sculkmod:block/deep_wood_log"
+    },
+    "axis=z": {
+      "model": "sculkmod:block/deep_wood_log_rotated",
+      "x": 90
+    }
+  }
+}

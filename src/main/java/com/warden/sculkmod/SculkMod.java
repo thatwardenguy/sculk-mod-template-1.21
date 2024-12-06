@@ -1,5 +1,6 @@
 package com.warden.sculkmod;
 
+import com.warden.sculkmod.block.modblocks;
 import com.warden.sculkmod.item.moditems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class SculkMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		moditems.registermoditems();
+		modblocks.registermodblocks();
 	}
 }
